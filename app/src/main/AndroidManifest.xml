@@ -10,13 +10,16 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
         <activity android:name=".Home">
+
+        </activity>
+        <activity android:name=".LoginScreen">
+        </activity>
+        <activity android:name=".WelcomeScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
-        </activity>
-        <activity android:name=".LoginScreen">
         </activity>
     </application>
 
