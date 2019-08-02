@@ -21,7 +21,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="Login"
-                android:textColor="#000"
+                android:textColor="#fff"
+                android:layout_margin="5dp"
+                android:background="@drawable/login_btn"
                 android:textStyle="bold"
                 android:textSize="20sp"/>
         <Button
@@ -30,7 +32,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="Button 2"
-                android:textColor="#000"
+                android:textColor="#fff"
+                android:layout_margin="5dp"
+                android:background="@drawable/login_btn"
                 android:textStyle="bold"
                 android:textSize="20sp"/>
         <Button
@@ -39,7 +43,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="Button 2"
-                android:textColor="#000"
+                android:textColor="#fff"
+                android:layout_margin="5dp"
+                android:background="@drawable/login_btn"
                 android:textStyle="bold"
                 android:textSize="20sp"/>
 
@@ -57,7 +63,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="button 4"
-                android:textColor="#000"
+                android:textColor="#fff"
+                android:layout_margin="5dp"
+                android:background="@drawable/login_btn"
                 android:textStyle="bold"
                 android:textSize="20sp"/>
         <Button
@@ -66,7 +74,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="Button 5"
-                android:textColor="#000"
+                android:textColor="#fff"
+                android:layout_margin="5dp"
+                android:background="@drawable/login_btn"
                 android:textStyle="bold"
                 android:textSize="20sp"/>
         <Button
@@ -75,7 +85,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="Button 6"
-                android:textColor="#000"
+                android:textColor="#fff"
+                android:layout_margin="5dp"
+                android:background="@drawable/login_btn"
                 android:textStyle="bold"
                 android:textSize="20sp"/>
 
@@ -93,7 +105,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="Button 7"
-                android:textColor="#000"
+                android:textColor="#fff"
+                android:layout_margin="5dp"
+                android:background="@drawable/login_btn"
                 android:textStyle="bold"
                 android:textSize="20sp"/>
         <Button
@@ -102,7 +116,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="Button 8"
-                android:textColor="#000"
+                android:textColor="#fff"
+                android:layout_margin="5dp"
+                android:background="@drawable/login_btn"
                 android:textStyle="bold"
                 android:textSize="20sp"/>
         <Button
@@ -111,7 +127,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="Button 9"
-                android:textColor="#000"
+                android:textColor="#fff"
+                android:layout_margin="5dp"
+                android:background="@drawable/login_btn"
                 android:textStyle="bold"
                 android:textSize="20sp"/>
 

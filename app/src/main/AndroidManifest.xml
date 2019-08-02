@@ -12,7 +12,8 @@
         <activity android:name=".Home">
 
         </activity>
-        <activity android:name=".LoginScreen">
+        <activity android:name=".LoginScreen"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         </activity>
         <activity android:name=".WelcomeScreen"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
