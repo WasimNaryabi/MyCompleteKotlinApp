@@ -16,22 +16,22 @@
             android:layout_margin="5dp">
 
         <Button
-                android:id="@+id/loginBtn"
+                android:id="@+id/uiBtn"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Login"
+                android:text="Android UI"
                 android:textColor="#fff"
                 android:layout_margin="5dp"
                 android:background="@drawable/login_btn"
                 android:textStyle="bold"
                 android:textSize="20sp"/>
         <Button
-                android:id="@+id/btn2"
+                android:id="@+id/navigation"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Button 2"
+                android:text="Navigation"
                 android:textColor="#fff"
                 android:layout_margin="5dp"
                 android:background="@drawable/login_btn"

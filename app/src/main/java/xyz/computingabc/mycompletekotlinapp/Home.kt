@@ -12,10 +12,16 @@ class Home : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
-        val btnLogin:Button = findViewById(R.id.loginBtn)
+        val UiBtn:Button = findViewById(R.id.uiBtn)
+        val NaviBtn:Button = findViewById(R.id.navigation)
 
-        btnLogin.setOnClickListener(View.OnClickListener {
-            val intent = Intent(applicationContext,LoginScreen::class.java)
+        UiBtn.setOnClickListener(View.OnClickListener {
+            val intent = Intent(applicationContext,AndroidUIcontroll::class.java)
+            startActivity(intent)
+            finish()
+        })
+        NaviBtn.setOnClickListener(View.OnClickListener {
+            val intent = Intent(applicationContext,NavigationJetPack::class.java)
             startActivity(intent)
             finish()
         })
