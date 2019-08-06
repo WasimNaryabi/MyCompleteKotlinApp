@@ -1,6 +1,7 @@
 package xyz.computingabc.mycompletekotlinapp
 
-import android.support.v7.app.AppCompatActivity
+import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import xyz.computingabc.mycompletekotlinapp.ui.navigationjetpack.NavigationJetPackFragment
 
@@ -16,4 +17,8 @@ class NavigationJetPack : AppCompatActivity() {
         }
     }
 
+    override fun onBackPressed() {
+        startActivity(Intent(applicationContext,Home::class.java))
+        finish()
+    }
 }

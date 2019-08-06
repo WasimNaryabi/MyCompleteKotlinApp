@@ -1,6 +1,7 @@
 package xyz.computingabc.mycompletekotlinapp
 
-import android.support.v7.app.AppCompatActivity
+import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
 class AndroidUIcontroll : AppCompatActivity() {
@@ -8,5 +9,10 @@ class AndroidUIcontroll : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_android_uicontroll)
+    }
+
+    override fun onBackPressed() {
+        startActivity(Intent(applicationContext,Home::class.java))
+        finish()
     }
 }
