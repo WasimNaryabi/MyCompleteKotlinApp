@@ -1,9 +1,9 @@
 package xyz.computingabc.mycompletekotlinapp
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.support.design.widget.Snackbar
+//import android.support.design.widget.Snackbar
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
@@ -13,8 +13,8 @@ import kotlinx.android.synthetic.main.activity_login_screen.*
 
 class LoginScreen : AppCompatActivity() {
 
-   private var emailString:String? = null
-   private var passwordString:String? = null
+    private var emailString:String? = null
+    private var passwordString:String? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,8 +23,7 @@ class LoginScreen : AppCompatActivity() {
 
         btn_login.setOnClickListener(View.OnClickListener {
             validation()
-            val snack = Snackbar.make(root_layout,"Invalid Email Or Password",Snackbar.LENGTH_LONG)
-            snack.show()
+//
         })
 
     }
@@ -39,8 +38,9 @@ class LoginScreen : AppCompatActivity() {
             input_password.error="plz enter your Password"
         }else{
             if(!(emailString.equals("wasim11@gmail.com") && passwordString.equals("12345678"))){
-                val snack = Snackbar.make(root_layout,"Invalid Email Or Password",Snackbar.LENGTH_LONG)
-                snack.show()
+                /* val snack = Snackbar.make(root_layout,"Invalid Email Or Password",Snackbar.LENGTH_LONG)
+                 snack.show()*/
+                Toast.makeText(this,"Invalid Email Or Password",Toast.LENGTH_SHORT).show()
             }else{
                 val home = Intent(applicationContext,Home::class.java)
                 startActivity(home)
@@ -55,6 +55,5 @@ class LoginScreen : AppCompatActivity() {
         startActivity(home)
         finish()
     }
-
 
 }
