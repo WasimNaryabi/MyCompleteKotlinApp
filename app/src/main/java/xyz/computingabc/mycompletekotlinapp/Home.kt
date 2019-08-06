@@ -14,6 +14,7 @@ class Home : AppCompatActivity() {
 
         val UiBtn:Button = findViewById(R.id.uiBtn)
         val NaviBtn:Button = findViewById(R.id.navigation)
+        val recylerViewBtn:Button = findViewById(R.id.recy_view)
 
         UiBtn.setOnClickListener(View.OnClickListener {
             val intent = Intent(applicationContext,AndroidUIcontroll::class.java)
@@ -25,5 +26,10 @@ class Home : AppCompatActivity() {
             startActivity(intent)
             finish()
         })
+        recylerViewBtn.setOnClickListener {
+            val intent = Intent(applicationContext,RecyclerViewPage::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 }

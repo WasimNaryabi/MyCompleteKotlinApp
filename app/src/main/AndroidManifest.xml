@@ -28,6 +28,8 @@
         </activity>
         <activity android:name=".NavigationJetPack">
         </activity>
+        <activity android:name=".RecyclerViewPage">
+        </activity>
     </application>
 
 </manifest>
