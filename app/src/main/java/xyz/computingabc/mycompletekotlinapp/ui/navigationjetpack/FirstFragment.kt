@@ -1,4 +1,4 @@
-package xyz.computingabc.mycompletekotlinapp
+package xyz.computingabc.mycompletekotlinapp.ui.navigationjetpack
 
 
 import android.os.Bundle
@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import xyz.computingabc.mycompletekotlinapp.R
 
 
 // TODO: Rename parameter arguments, choose names that match
